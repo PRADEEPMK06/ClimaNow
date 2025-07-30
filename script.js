@@ -60,11 +60,11 @@ function setSeasonalBackground(description, tempC) {
     } else if (tempC >= 25) {
         image = 'summer.jpg';
     } else if (tempC >= 15 && tempC < 25) {
-        image = 'spring.jpg';
+        image = 'spring.jpeg';
     } else if (tempC >= 5 && tempC < 15) {
         image = 'aut.jpg';
     } else {
-        image = 'wint.jpg';
+        image = 'wint.jpeg';
     }
 
     document.body.style.backgroundImage = `url('${image}')`;
