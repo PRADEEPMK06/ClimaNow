@@ -56,15 +56,15 @@ function setSeasonalBackground(description, tempC) {
     if (description.includes('rain') || description.includes('drizzle') || description.includes('thunderstorm')) {
         image = 'rain.jpg';
     } else if (description.includes('snow')) {
-        image = 'wint.jpeg';
+        image = 'wint.jpg';
     } else if (tempC >= 25) {
-        image = 'summer.jpeg';
+        image = 'summer.jpg';
     } else if (tempC >= 15 && tempC < 25) {
-        image = 'spring.jpeg';
+        image = 'spring.jpg';
     } else if (tempC >= 5 && tempC < 15) {
-        image = 'aut.jpeg';
+        image = 'aut.jpg';
     } else {
-        image = 'wint.jpeg';
+        image = 'wint.jpg';
     }
 
     document.body.style.backgroundImage = `url('${image}')`;
