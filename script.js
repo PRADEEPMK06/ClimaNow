@@ -1,6 +1,6 @@
 "use strict";
 window.onload = function () {
-    document.body.style.backgroundImage = "url('background.jpeg')";
+    document.body.style.backgroundImage = "url('background.jpg')";
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundRepeat = 'no-repeat';
     document.body.style.backgroundPosition = 'center';
@@ -72,3 +72,4 @@ function setSeasonalBackground(description, tempC) {
     document.body.style.backgroundRepeat = 'no-repeat';
     document.body.style.backgroundPosition = 'center';
 }
+
