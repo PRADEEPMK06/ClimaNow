@@ -18,7 +18,7 @@ body {
 }
 
 .weatherContainer {
-    background: 1515D1;
+    background: #1515D1;
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 40px 50px;
@@ -80,5 +80,6 @@ body {
     line-height: 1.5;
     text-shadow: 0 1px 3px rgba(0,0,0,0.4);
 }
+
 
 
